@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_homee"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:text="Prediksi Pinjaman Koperasi"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_above="@id/mulai"
+        android:layout_gravity="center"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/roundedbutton"
+        android:onClick="onClick"
+        android:text="Tentang"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/mulai"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/roundedbutton"
+        android:onClick="onClick"
+        android:text="Mulai"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

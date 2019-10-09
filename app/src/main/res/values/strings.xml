@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PREPINKOP</string>
+    <string name="about1">PREPINKOP (Prediksi Pinjaman Koperasi) merupakan aplikasi berbasis android yang memiliki fitur untuk menghitung prediksi banyaknya pinjaman yang akan diterima dengan cara melakukan input masa kerja dan jumlah gaji.</string>
+    <string name="about2">Aplikasi ini menggunakan logika fuzzy dengan metode Mamdani. Output dari aplikasi ini berupa prediksi jumlah pinjaman yang akan diterima oleh anggota koperasi.</string>
+    <string name="about3">Dibuat oleh Mahasiswa Sistem Informasi Universitas Airlangga :\n
+    Arinal Izza Yudhistira (081611633027)\n
+    Rheza Falah Akbar (081611633055)\n
+    Byan Rahmawan (081611633028)\n
+    Saskia Belinda Salsabila (081611633025)\n
+    Salsabila Devina Atmaranti (081611633029)\n
+    Dini Harianti Br Sinambela (081611633017)</string>
+</resources>
