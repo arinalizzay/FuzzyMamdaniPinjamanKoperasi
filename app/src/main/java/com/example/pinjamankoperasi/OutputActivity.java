@@ -31,16 +31,16 @@ public class OutputActivity extends AppCompatActivity {
         textViewMasaKerja = findViewById(R.id.textViewMasaKerja);
         textViewGaji = findViewById(R.id.textViewGaji);
 
-        int pinjaman = (int) getIntent().getDoubleExtra("hasil", 0);
-        int gaji = (int) getIntent().getDoubleExtra("gaji", 0);
-        double masaKerja = (int) getIntent().getDoubleExtra("masa kerja", 0);
+        double pinjaman = (double) getIntent().getDoubleExtra("hasil", 0);
+        double gaji = (double) getIntent().getDoubleExtra("gaji", 0);
+        double masaKerja = (double) getIntent().getDoubleExtra("masakerja", 0);
 
         String strPinjaman = numberFormat.format(pinjaman);
         textViewPinjaman.setText("Rp. "+strPinjaman);
 
         String strGaji = numberFormat.format(gaji);
         textViewGaji.setText("Gaji : Rp. "+strGaji);
-        textViewMasaKerja.setText("Masa Kerja : "+masaKerja+"Tahun");
+        textViewMasaKerja.setText("Masa Kerja : "+masaKerja+ " Tahun");
     }
 
     public void onClick (View v){

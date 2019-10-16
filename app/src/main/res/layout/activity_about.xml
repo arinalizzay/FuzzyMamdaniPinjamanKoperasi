@@ -51,7 +51,7 @@
             android:layout_below="@+id/textViewMasaKerja"
             android:layout_marginTop="8dp"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="14sp"
+            android:textSize="12sp"
             android:text="@string/about2"/>
 
         <TextView
@@ -62,7 +62,7 @@
             android:layout_below="@+id/textViewMasaKerja"
             android:layout_marginTop="168dp"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="14sp"
+            android:textSize="12sp"
             android:text="@string/about3"/>
 
         <Button
